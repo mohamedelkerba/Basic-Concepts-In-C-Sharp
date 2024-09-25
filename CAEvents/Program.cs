@@ -13,7 +13,6 @@
             stock.ChangeStockPriceBy(-0.05m);
             stock.ChangeStockPriceBy(0.00m);
 
-
             Console.ReadKey();
         }
 
@@ -58,18 +57,6 @@
                   OnPriceChanged(this, oldPrice); 
             }
         }
-
-
-
-
-
-
-
-
-      
-
-
-
     }
 };
 
